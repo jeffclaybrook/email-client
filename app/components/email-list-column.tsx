@@ -19,8 +19,8 @@ export const EmailListColumn = async ({
  }
 
  return (
-  <div>
-   <ul>
+  <div className="border-r border-gray-200 dark:border-gray-800 overflow-y-auto p-2 col-span-2">
+   <ul className="divide-y divide-gray-200 dark:divide-gray-800">
     {emails.map((email) => (
      <li
       key={email.id}

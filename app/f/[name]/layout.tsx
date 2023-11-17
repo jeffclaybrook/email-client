@@ -8,7 +8,7 @@ const EmailLayout = ({
  children: React.ReactNode
  params: { name: string; id: string }
 }) => (
- <div>
+ <div className="grid grid-cols-6 gap-2 h-screen p-2">
   <FolderColumn />
   <EmailListColumn folderName={params.name} searchParams={{
    q: undefined,

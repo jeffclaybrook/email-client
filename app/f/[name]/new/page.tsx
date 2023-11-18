@@ -12,7 +12,7 @@ const Page = async () => {
    action={sendEmail}
    className="col-span-3 flex flex-col w-12/20"
   >
-   <div className="flex justify-between items-center border-b border-gray-200 dark:border-gray-800 p-2 sticky top-0  h-[60px]">
+   <div className="flex justify-between items-center border-b border-gray-200 dark:border-gray-800 p-2 sticky top-0 h-[60px]">
     <button
      type="submit"
      className="flex ml-auto hover:bg-gray-200 dark:hover:bg-gray-800 rounded px-3 py-2"
@@ -29,7 +29,7 @@ const Page = async () => {
      <label className="absolute left-3 top-4 text-gray-500 dark:text-gray-400">
       From:
      </label>
-     <p className="pl-14 border-none bg-white dark:bg-gray-950 text-white px-3 py-2 focus:outline-none">
+     <p className="pl-14 border-none bg-white dark:bg-gray-950 text-black px-3 py-2 focus:outline-none">
       your@email.com
      </p>
     </div>

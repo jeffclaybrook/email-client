@@ -24,9 +24,9 @@ export const EmailListColumn = async ({
     {emails.map((email) => (
      <li
       key={email.id}
-      className="p-4 hover:bg-gray-100 dark:hover:bg-gray-800 cursor-pointer flex justify-between items-start rounded-lg"
+      className="w-full p-4 hover:bg-gray-100 dark:hover:bg-gray-800 cursor-pointer flex justify-between items-start rounded-lg"
      >
-      <Link href={createUrl(email.id)}>
+      <Link href={createUrl(email.id)} className="w-full">
        <div className="w-full truncate">
         <h2 className="text-base font-bold">
          {formatEmailString(email)}

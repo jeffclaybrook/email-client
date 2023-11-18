@@ -24,7 +24,7 @@ export const Search = () => {
  }, 300)
 
  return (
-  <div>
+  <div className="relative flex flex-1 flex-shrink-0">
    <label htmlFor="search" className="sr-only">
     Search
    </label>

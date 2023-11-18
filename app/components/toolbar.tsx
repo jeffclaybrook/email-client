@@ -50,7 +50,7 @@ export const Toolbar = () => {
      <ArrowRightIcon />
     </button>
    </div>
-   <button className="flex ml-auto">
+   <button className="flex ml-auto relative">
     <Search />
    </button>
   </div>
